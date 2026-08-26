@@ -1,9 +1,16 @@
+/* This is example, temporary CSS files
+ * feel free to edit and change.
+ */ 
+
+
 body {
     background-color: whitesmoke;
     color: black;
 }
 
 .main-content {
+    margin: auto;
+    width: 500px;
     background-color: powderblue;
     text-align: center;
     border: 2px solid blue;
