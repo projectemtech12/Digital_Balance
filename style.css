@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Arial';
+}
+
+p {
+    font-family: 'sans-serif';
+}
