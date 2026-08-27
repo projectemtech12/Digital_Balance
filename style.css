@@ -2,6 +2,9 @@
  * feel free to edit and change.
  */ 
 
+html, body, * {
+    scrollbar-width: none;
+}
 
 body {
     background-color: whitesmoke;
