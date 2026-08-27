@@ -1,5 +1,5 @@
 /* This is example, temporary CSS files
- * feel free to edit and change.
+ * feel free to edit and change fr.
  */ 
 
 html, body, * {
@@ -7,22 +7,43 @@ html, body, * {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #282828;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Arial';
+    color: black;
+}
+
+p {
+    font-family: 'sans-serif';
     color: black;
 }
 
 .main-content {
     margin: auto;
-    width: 33.33vw;
+    width: 100%;
+    max-width: 500px;
     background-color: powderblue;
     text-align: center;
     border: 2px solid blue;
 }
 
-h1, h2 {
-    font-family: 'Arial';
+.random-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
+    margin: 10px;
 }
 
-p {
+.content1, .content2 {
     font-family: 'sans-serif';
+    text-align: center;
+    color: white;
 }
+
+.ex-image1, .ex-image2 {
+    width: 100%;
+}
+
