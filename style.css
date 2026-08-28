@@ -2,8 +2,9 @@
  * feel free to edit and change fr.
  */ 
 
-html, body, * {
+* {
     scrollbar-width: none;
+    margin: 0;
 }
 
 body {
@@ -21,13 +22,14 @@ p {
     color: black;
 }
 
-.main-content {
-    margin: auto;
-    width: 100%;
-    max-width: 500px;
-    background-color: powderblue;
+.header {
+    background-color: #080808;
+    padding: 10px;
+}
+
+.title {
+    color: white;
     text-align: center;
-    border: 2px solid blue;
 }
 
 .random-content {
